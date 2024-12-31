@@ -1,0 +1,91 @@
+[debug] [2024-12-30T23:20:01.567Z] ----------------------------------------------------------------------
+[debug] [2024-12-30T23:20:01.570Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Yogesh Patel\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-12-30T23:20:01.570Z] CLI Version:   13.29.1
+[debug] [2024-12-30T23:20:01.570Z] Platform:      win32
+[debug] [2024-12-30T23:20:01.570Z] Node Version:  v22.12.0
+[debug] [2024-12-30T23:20:01.570Z] Time:          Tue Dec 31 2024 04:50:01 GMT+0530 (India Standard Time)
+[debug] [2024-12-30T23:20:01.571Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-30T23:20:01.578Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-30T23:20:01.579Z] > authorizing via signed-in user (yogesh.dav99@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Yogesh Patel\weather-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-12-30T23:20:56.536Z] Checked if tokens are valid: true, expires at: 1735604284882
+[debug] [2024-12-30T23:20:56.536Z] Checked if tokens are valid: true, expires at: 1735604284882
+[debug] [2024-12-30T23:20:56.538Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-12-30T23:20:56.538Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"Yogesh76","name":"Yogesh76"}
+[debug] [2024-12-30T23:20:58.870Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-12-30T23:20:58.871Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-12-30T23:20:59.025Z] FirebaseError: Request to https://cloudresourcemanager.googleapis.com/v1/projects had HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (C:\Users\Yogesh Patel\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\Yogesh Patel\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2024-12-30T23:21:07.788Z] ----------------------------------------------------------------------
+[debug] [2024-12-30T23:21:07.790Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Yogesh Patel\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-12-30T23:21:07.791Z] CLI Version:   13.29.1
+[debug] [2024-12-30T23:21:07.791Z] Platform:      win32
+[debug] [2024-12-30T23:21:07.791Z] Node Version:  v22.12.0
+[debug] [2024-12-30T23:21:07.791Z] Time:          Tue Dec 31 2024 04:51:07 GMT+0530 (India Standard Time)
+[debug] [2024-12-30T23:21:07.791Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-30T23:21:07.800Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-30T23:21:07.800Z] > authorizing via signed-in user (yogesh.dav99@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Yogesh Patel\weather-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-12-30T23:21:45.079Z] Checked if tokens are valid: true, expires at: 1735604284882
+[debug] [2024-12-30T23:21:45.079Z] Checked if tokens are valid: true, expires at: 1735604284882
+[debug] [2024-12-30T23:21:45.080Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-12-30T23:21:45.080Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"yogesh76","name":"yogesh76"}
+[debug] [2024-12-30T23:21:47.397Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-12-30T23:21:47.397Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.8274321342493162194"}
+[debug] [2024-12-30T23:21:47.398Z] Checked if tokens are valid: true, expires at: 1735604284882
+[debug] [2024-12-30T23:21:47.398Z] Checked if tokens are valid: true, expires at: 1735604284882
+[debug] [2024-12-30T23:21:47.399Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8274321342493162194 [none]
+[debug] [2024-12-30T23:21:49.035Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8274321342493162194 200
+[debug] [2024-12-30T23:21:49.035Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8274321342493162194 {"name":"operations/cp.8274321342493162194","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","ready":true},"done":true,"error":{"code":9,"message":"Callers must accept Terms of Service","details":[{"@type":"type.googleapis.com/google.rpc.PreconditionFailure","violations":[{"type":"TOS","subject":"cloud","description":"Callers must accept Terms of Service"}]}]}}
+[debug] [2024-12-30T23:21:49.223Z] FirebaseError: Callers must accept Terms of Service
+    at OperationPoller.poll (C:\Users\Yogesh Patel\AppData\Roaming\npm\node_modules\firebase-tools\lib\operation-poller.js:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createCloudProject (C:\Users\Yogesh Patel\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:213:29)
+    at async createFirebaseProjectAndLog (C:\Users\Yogesh Patel\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:71:9)
+    at async promptAndCreateNewProject (C:\Users\Yogesh Patel\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:32:12)
+    at async doSetup (C:\Users\Yogesh Patel\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:89:27)
+    at async init (C:\Users\Yogesh Patel\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:41:9)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.

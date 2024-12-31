@@ -1,6 +1,10 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
 import { AppComponent } from './app/app.component';
+import { provideHttpClient } from '@angular/common/http'; // If you need HTTP services
 
-bootstrapApplication(AppComponent, appConfig)
-  .catch((err) => console.error(err));
+// Bootstrap the standalone AppComponent
+bootstrapApplication(AppComponent, {
+  providers: [
+    provideHttpClient(), // If you need HTTP services in your app
+  ],
+}).catch((err) => console.error(err));
