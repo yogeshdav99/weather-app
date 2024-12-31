@@ -59,6 +59,8 @@ export class WeatherComponent {
         'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExODNsanJpNjJwZDNhNXZ2Mno1NW5kZWZoemFoNHM3N3BqMTExcWFtdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26uf5HjasTtxtNCqQ/giphy.webp',
       drizzle:
         'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExenIzeWJyM21nazJxcjhtcmpyOGg4MzZ5bG1hejhmNnllamdxeHU1MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8OMSzA321pAVmKj6C0/giphy.webp',
+      smoke:
+        'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXZyYXdheTMwMzg2MTV0eTR5em9vanJwYnA4cnZpeGF0dXR5czNnNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l4Jz9LOWbPwTDctfW/giphy.webp',
     };
     return gifs[condition] || 'https://example.com/default-weather.gif';
   }
